@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background: url('../Asset/admin2.jpg');
+    background-size: cover;
+}
+
+.Login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.Login h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0; 
+    color: aquamarine;
+}
+
+.Login p {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0; 
+    color: whitesmoke;
+}
+
+.Login input {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 5px;
+    width: 100;
+    border: 0;
+    border-radius: 50;
+    outline: none;
+}
+
+.Login button {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 3px 5px;
+    width: 50%;
+    border: 0;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+.Login button:hover
+{
+    color: red;
+}
+
+.Login a{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 3px 40px;
+    width: 50%;
+    border: 0;
+    border-radius: 30px;
+    background-color: peru;
+}
+
+.Login a:hover {
+      color: blueviolet;
+}
+
+a{
+    text-decoration:none;
+}

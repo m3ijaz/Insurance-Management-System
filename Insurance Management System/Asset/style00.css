@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background: url('../Asset/admin1.jpg');
+    background-size: cover;
+}
+
+.Signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.Signup h1 {
+      font-size: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 30px 0; 
+}
+
+.Signup p {
+    font-size: 10px;
+    margin: 10px 0; 
+}
+
+.Signup input {
+    font-size: 10px;
+    padding: 2px 2px;
+    width: 30%;
+    border: 0;
+    border-radius: 30;
+}
+
+.Signup button {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 3px 5px;
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+.Signup button:hover
+{
+    color: red;
+}
+
+.Signup select{
+    font-size: 10px;
+    padding: 3px 3px;
+    width: 100%;
+    border: 0;
+    border-radius: 30;
+    outline: none;
+}
+
+.Signup a{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 3px 40px;
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.Signup a:hover {
+      color: blueviolet;
+}
+
+span {
+     color: red;
+     font-size: small;
+}   

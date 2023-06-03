@@ -1,0 +1,106 @@
+
+            
+*{padding: 0;
+ margin: 0;
+ box-sizing : border-box;}
+  
+header
+    {
+     width : 100%;
+     height : 100vh;
+     background: url('../Asset/welcome.jpg');
+     background-size : cover;
+     font-family: 'Times New Roman', Times, serif;
+    }
+    a{
+        text-decoration:none;
+    }
+
+nav
+    {
+        width: 100%;
+        height: 100px;
+        color: blue;
+        display: flex;
+        justify-content: space-around;
+        align-items:flex-end;
+    }
+
+    .welcome 
+    {
+       font-size: 3em;
+       letter-spacing: 2px;
+    } 
+    
+   .link 
+   {
+      font: bold;
+      max-width: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: black; 
+   }
+   
+   .link span 
+   {
+      letter-spacing: 4px;
+   }
+
+   .l0
+   {
+       
+       text-decoration: none;
+       color: white;
+       padding: 15px 15px;
+       font-size: 15px;
+       background: burlywood;
+       border-radius: 50px;
+   }
+
+
+
+    .l1
+    {
+        
+        text-decoration: none;
+        color: white;
+        padding: 15px 15px;
+        font-size: 15px;
+        background: gold;
+        border-radius: 50px;
+    }
+
+   
+
+     .l2
+    {
+        
+        text-decoration: none;
+        color: white;
+        padding: 15px 15px;
+        font-size: 15px;
+        background: red;
+        border-radius: 50px;
+    }
+
+
+    .l3
+    {
+        
+        text-decoration: none;
+        color: white;
+        padding: 15px 15px;
+        font-size: 15px;
+        background: greenyellow;
+        border-radius: 50px;
+    }
+
+    .a:hover{
+        color: white;
+    }
+
+ 
+

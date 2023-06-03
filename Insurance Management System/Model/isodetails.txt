@@ -1,0 +1,8 @@
+1|IJAZ|Male|mahabubmorshedijaz19@gmail.com|2001-10-12|A-|BSC|Searching|ijaz|ijaz|ijaz
+2|MAHABUB|Male|mahabubmorshedijaz19@gmail.com|2001-10-12|A-|BSC|Searching|mahabub|mahabub|mahabub
+3|MORSHED|Male|mahabubmorshedijaz19@gmail.com|2001-10-12|A-|BSC|Searching|morshed|morshed|morshed
+4|Anik|Male|Anik19@gmail.com|2001-02-05|AB+|BSC|Searching|anik|anik|anik
+5|Rakib|Male|rakib@gmail.com|2001-10-12|A+|BSC|Searching|rakib|rakib|rakib
+7|IJAZ|Male|mahabubmorshedijaz19@gmail.com|2001-10-12|A-|BSC|Searching|ijaz|ijaz|ijaz
+9|Nahid|Male|nahid19@gmail.com|2002-10-01|AB+|BBA|Searching|nahid|nahid|nahid
+5|IJAZ|Male|mahabubmorshedijaz19@gmail.com|2001-10-12|A-|BSC|Searching|ijaz|ijaz|ijaz

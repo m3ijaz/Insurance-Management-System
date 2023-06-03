@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background: url('../Asset/home.jpg');
+    background-size: cover;
+}
+ 
+
+.isohome h1{ 
+    width: 100%;
+    height: 100px;
+    color: cyan;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+                    
+.isohome a{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 3px 5px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.isohome a{
+    background-color: yellowgreen;
+    color: blue;
+    text-decoration:none ;
+}
+
+.isohome a:hover{
+    color:white;
+}

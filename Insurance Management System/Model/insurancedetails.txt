@@ -1,0 +1,12 @@
+101|2022-06-30|Life_Insurance
+102|2022-06-30|Car_Insurance
+103|2022-06-30|Property_Insurance
+104|2022-06-30|Life_Insurance
+105|2022-06-30|Car_Insurance
+106|2022-06-30|Fire_Insurance
+107|2022-06-30|Life_Insurance
+108|2022-06-30|Car_Insurance
+109|2022-06-30|Property_Insurance
+107|2022-06-30|Property_Insurance
+109|2022-07-06|Life_Insurance
+110|2022-06-30|Car_Insurance

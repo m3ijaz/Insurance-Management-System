@@ -1,0 +1,43 @@
+<html> 
+<head>
+	<title>Admin Signup</title>
+	<link  rel="stylesheet" type="text/css" href="../Asset/style00.css">
+</head>
+<body>
+	<a href="../Management/welcome.html"> Back to Welcome Page </a>
+
+	<div class = "Signup">
+		<h1>ADMIN SIGN UP</h1> 
+
+		<form onsubmit="return validation()" action="../Management/AdminSignupCheck.php" method="post" enctype="" autocomplete="off">
+			
+			  <p>User_Name: </p>
+			  <input type="text" name="User_Name" id="user_Name" value="" placeholder="User_Name">
+             <br> <span id="user_names"></span>
+
+			  <p>Password :</p>
+			  <input type="Password" name="Password" id="password" value="" placeholder="Password">
+             <br> <span id="passwords"></span>
+
+			  <p>Confirm_Password :</p>
+			  <input type="Password" name="Password" id="confirm_password" value="" placeholder="Confirm_Password">
+             <br> <span id="confirm_passwords"></span>
+
+            
+			<button type="submit"> Sign Up </button> 
+			<button type="reset"> Reset </button>
+			
+            <br>
+	
+			<a href="Adminlogin.html"> Login </a> 
+					  
+		</form>  
+       
+		<script type="text/javascript" src="../Asset/AdminSignupScript.js"></script>
+
+
+	</div>
+           
+	
+</body>
+</html>

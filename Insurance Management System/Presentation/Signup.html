@@ -1,0 +1,100 @@
+<html> 
+<head>
+	<title>Insurance Officer Signup</title>
+	<link  rel="stylesheet" type="text/css" href="../Asset/style1.css">
+</head>
+<body>
+	<a href="../Management/welcome.html"> Back to Welcome Page </a>
+
+	<div class = "Signup">
+		<h1>SIGN UP</h1> 
+
+		<form onsubmit="return validation()" action="../Management/SignupCheck.php" method="post" enctype="" autocomplete="off">
+              <p>Name :</p>
+			  <input type="text" name="Name" id="name" value="" placeholder="Name">
+             <br> <span id="names"></span>
+
+              <p>Gender :</p>
+			  <input type="radio" name="Gender" id="gender" value="Male"> Male
+			  <input type="radio" name="Gender" id="gender" value="Female"> Female
+			  <input type="radio" name="Gender" id="gender" value="Other"> Other
+             <br> <span id="genders"></span>
+
+              <p>Email :</p>
+			  <input type="Email" name="Email" id="email" value="" placeholder="Email">
+             <br> <span id="emails"></span>
+
+              <p>DOB :</p>  
+              <input type="date" name="DOB" id="dob" value = " " placeholder="DOB">
+             <br> <span id="dobs"></span>
+
+			  <p>Blood_Group :</p>
+              <select name="Blood_Group" id="blood_Group">
+				<option value="A+"> A+ </option>
+				<option value="A-"> A- </option>
+				<option value="B+"> B+ </option>
+				<option value="B-"> B- </option>
+				<option value="AB+"> AB+ </option>
+				<option value="AB-"> AB- </option>
+				<option value="O+"> O+ </option>
+				<option value="O-"> O- </option>
+			  </select>
+            <br>  <span id="blood_Groups"></span>
+
+
+			  <p>Degree :</p>
+		      <input type="checkbox" name="Degree" id="degree" value="BSC"> BSC
+			  <input type="checkbox" name="Degree" id="degree" value="BBA"> BBA
+			  <input type="checkbox" name="Degree" id="degree" value="MSC"> MSC
+			  <input type="checkbox" name="Degree" id="degree" value="MBA"> MBA
+			  <input type="checkbox" name="Degree" id="degree" value="Others"> Others
+            <br>  <span id="dehrees"></span>
+
+
+              <p>Occupation :</p>
+              <select name="Occupation" id="occupation">
+				<option value="Searching"> Searching </option>
+				<option value="Student"> Student </option>
+				<option value="Teacher"> Teacher </option>
+				<option value="Businessman"> Businessman </option>
+				<option value="Govt_Employee "> Govt_Employee </option>
+				<option value="Sportsman"> Sportsman </option>
+				<option value="Driver"> Driver </option>
+				<option value="Others"> Others </option>
+			  </select>
+			 <br> <span id="occupations"></span>
+			  
+
+			  <p>User_Name: </p>
+			  <input type="text" name="User_Name" id="user_Name" value="" placeholder="User_Name">
+             <br> <span id="user_names"></span>
+
+			  <p>Password :</p>
+			  <input type="Password" name="Password" id="password" value="" placeholder="Password">
+             <br> <span id="passwords"></span>
+
+			  <p>Confirm_Password :</p>
+			  <input type="Password" name="Password" id="confirm_password" value="" placeholder="Confirm_Password">
+             <br> <span id="confirm_passwords"></span>
+           
+			  <p>User Type :</p>
+			  <input type="radio" name="User Type"> Insurance Officer 
+
+            
+			<button type="submit"> Sign Up </button> 
+			<button type="reset"> Reset </button>
+			
+            <br>
+	
+			<a href="login.html"> Login </a> 
+					  
+		</form>  
+       
+		<script type="text/javascript" src="../Asset/SignupScript.js"></script>
+
+
+	</div>
+           
+	
+</body>
+</html>
